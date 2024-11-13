@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "83560468872",
+    "project_id": "appsolute-project-alco",
+    "storage_bucket": "appsolute-project-alco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83560468872:android:7518db07e792977eef6a3d",
+        "android_client_info": {
+          "package_name": "student.developer.jinhyeon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuG0qOikgXxJlcIpfYT71UNKBxmcP71BY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

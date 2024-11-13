@@ -17,10 +17,9 @@ class _SplashScreenState extends State<SplashScreen>
   void initState() {
     super.initState();
 
-    // Initialize the animation controller
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 2), // 3초 동안 애니메이션 실행
+      duration: const Duration(seconds: 2),
     );
 
     _animation = Tween<double>(begin: 0, end: 1).animate(_controller)
@@ -28,12 +27,10 @@ class _SplashScreenState extends State<SplashScreen>
         setState(() {});
       });
 
-    // Start the animation after a delay
     Future.delayed(const Duration(seconds: 2), () {
-      _controller.forward(); // 애니메이션 시작
+      _controller.forward();
     });
 
-    // Navigate to the next screen after the animation is complete
     Future.delayed(const Duration(seconds: 4), () {
       if (mounted) {
         Navigator.pushReplacement(
@@ -56,12 +53,11 @@ class _SplashScreenState extends State<SplashScreen>
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Logo Image at the center
           Center(
             child: ClipRect(
               child: Align(
                 alignment: Alignment.topCenter,
-                heightFactor: 0.8, // 하단을 20% 잘라냄
+                heightFactor: 0.8,
                 child: Image.asset(
                   "assets/images/logo.png",
                   width: 150,
@@ -70,7 +66,6 @@ class _SplashScreenState extends State<SplashScreen>
               ),
             ),
           ),
-          // Progress bar after the image
           if (_animation.value > 0)
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 120),

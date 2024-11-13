@@ -1,6 +1,10 @@
 import 'package:appsolute_project_alco/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
+/* 
+  2024.11.13
+*/
+
 void main() {
   runApp(const MyApp());
 }

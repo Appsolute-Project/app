@@ -1,3 +1,4 @@
+import 'package:appsolute_project_alco/screens/auth/sign_in_screen.dart';
 import 'package:appsolute_project_alco/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,8 +19,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
+        fontFamily: 'Paperlogy',
       ),
-      home: const SplashScreen(),
+      home: const SignInScreen(),
     );
   }
 }

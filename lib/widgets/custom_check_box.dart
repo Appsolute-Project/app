@@ -24,11 +24,11 @@ class _CustomCheckBoxState extends State<CustomCheckBox> {
         height: 24,
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          border: Border.all(color: Color(0xFF4A6ACA), width: 2),
-          color: isAutoLoginEnabled ? Color(0xFF4A6ACA) : Colors.white,
+          border: Border.all(color: const Color(0xFF4A6ACA), width: 2),
+          color: isAutoLoginEnabled ? const Color(0xFF4A6ACA) : Colors.white,
         ),
         child: isAutoLoginEnabled
-            ? Icon(Icons.check, color: Colors.white, size: 14)
+            ? const Icon(Icons.check, color: Colors.white, size: 14)
             : null,
       ),
     );

@@ -14,7 +14,7 @@ class CustomTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      style: TextStyle(
+      style: const TextStyle(
         fontFamily: "Paperlogy",
         fontWeight: FontWeight.w500,
         fontSize: 16
@@ -30,11 +30,11 @@ class CustomTextFormField extends StatelessWidget {
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(200),
-            borderSide: BorderSide(
+            borderSide: const BorderSide(
                 color: Color(0xFFA3A6FF)
             )
         ),
-        floatingLabelStyle: TextStyle(
+        floatingLabelStyle: const TextStyle(
           fontFamily: "Paperlogy",
           color: Color(0xFFA3A6FF)
         ),
@@ -44,7 +44,7 @@ class CustomTextFormField extends StatelessWidget {
           color: Colors.black.withOpacity(0.7),
           fontSize: 16
         ),
-        contentPadding: EdgeInsets.fromLTRB(25, 15, 25, 15)
+        contentPadding: const EdgeInsets.fromLTRB(25, 15, 25, 15)
       ),
     );
   }

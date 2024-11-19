@@ -1,9 +1,7 @@
 import 'package:appsolute_project_alco/widgets/custom_check_box.dart';
 import 'package:appsolute_project_alco/widgets/custom_text_btn.dart';
 import 'package:appsolute_project_alco/widgets/custom_text_form_field.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});

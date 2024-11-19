@@ -1,5 +1,4 @@
 import 'package:appsolute_project_alco/screens/auth/sign_in_screen.dart';
-import 'package:appsolute_project_alco/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 /* 

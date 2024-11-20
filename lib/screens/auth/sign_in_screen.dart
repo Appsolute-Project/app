@@ -25,6 +25,7 @@ class _SignInScreenState extends State<SignInScreen>
               const SizedBox(
                 height: 50,
               ),
+              SizedBox(height: 10),
               Center(
                 child: Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 150),

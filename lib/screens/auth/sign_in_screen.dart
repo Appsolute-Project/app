@@ -43,7 +43,6 @@ class _SignInScreenState extends State<SignInScreen>
                   obscureText: true,
                 ),
               ),
-              SizedBox(height: 10),
               Padding(
                   padding: const EdgeInsets.fromLTRB(30, 20, 30, 10),
                   child: SizedBox(

@@ -1,5 +1,4 @@
 import 'package:appsolute_project_alco/screens/auth/sign_in/utils/account_links.dart';
-import 'package:appsolute_project_alco/screens/home/home_screen.dart';
 import 'package:appsolute_project_alco/screens/navigator.dart';
 import 'package:appsolute_project_alco/widgets/custom_text_form_field.dart';
 import 'package:flutter/material.dart';

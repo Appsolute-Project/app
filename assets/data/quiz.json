@@ -1,0 +1,17 @@
+{
+    "problem": {
+      "title": "Find the Missing Number",
+      "description": "Given an array of integers 1 to N with one number missing, find the missing number.",
+      "example": {
+        "input": "[1, 2, 4, 5]",
+        "output": "3"
+      },
+      "code": [
+        "def find_missing_number(arr, n):",
+        "    total_sum = n * (n + 1) // 2",
+        "    arr_sum = sum(arr)",
+        "    return ___ - arr_sum"
+      ]
+    },
+    "answer": "total_sum"
+  }

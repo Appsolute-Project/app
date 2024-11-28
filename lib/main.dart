@@ -1,12 +1,10 @@
-
 import 'package:appsolute_project_alco/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-/* 
-  2024.11.13
-*/
-
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -19,9 +17,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
-        buttonTheme: ButtonThemeData(
-          minWidth: double.minPositive,
-        )
       ),
       home: const SplashScreen(),
     );

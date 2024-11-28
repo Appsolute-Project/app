@@ -54,7 +54,7 @@ class DefaultFirebaseOptions {
     appId: '1:83560468872:android:7518db07e792977eef6a3d',
     messagingSenderId: '83560468872',
     projectId: 'appsolute-project-alco',
-    storageBucket: 'appsolute-project-alco.appspot.com',
+    storageBucket: 'appsolute-project-alco.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -62,7 +62,9 @@ class DefaultFirebaseOptions {
     appId: '1:83560468872:ios:88dfab866bc5751eef6a3d',
     messagingSenderId: '83560468872',
     projectId: 'appsolute-project-alco',
-    storageBucket: 'appsolute-project-alco.appspot.com',
+    storageBucket: 'appsolute-project-alco.firebasestorage.app',
+    iosClientId: '83560468872-2vvvjdfm90vef87ckecnrrdr3bfijts6.apps.googleusercontent.com',
     iosBundleId: 'student.developer.jinhyeon.appsoluteProjectAlco',
   );
+
 }

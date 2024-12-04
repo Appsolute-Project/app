@@ -1,3 +1,4 @@
+import 'package:appsolute_project_alco/screens/quiz/quiz.dart';
 import 'package:flutter/material.dart';
 import 'package:appsolute_project_alco/widgets/custom_appbar.dart';
 import 'package:appsolute_project_alco/screens/notification/notification_screen.dart';
@@ -10,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class HomeScreenState extends State<HomeScreen> {
-  int notificationCount = 1; // 알림 개수를 나타내는 필드 선언
+  int notificationCount = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -71,6 +72,15 @@ class HomeScreenState extends State<HomeScreen> {
                     width: MediaQuery.of(context).size.width,
                     height: 100,
                     color: Colors.blue,
+                  ),
+                  IconButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => QuizSceen()),
+                        );
+                      },
+                      icon: Icon(Icons.person),
                   ),
                 ],
               ),
